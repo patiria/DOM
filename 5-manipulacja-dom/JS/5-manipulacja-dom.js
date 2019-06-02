@@ -12,5 +12,6 @@ header.classList.add('decor-header');
 setTimeout(
     () => {
         header.classList.remove('decor-header');
+        header.style.backgroundColor = 'yellow';
     }, 2000
 )
