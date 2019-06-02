@@ -1,15 +1,17 @@
 const p1 = document.getElementById('p1');
 const p2 = document.getElementById('p2');
-const link = document.getElementsByClassName('link');
+const btn = document.getElementById('btn');
+
+const 
 
 const linkClickCallback = (e) => {
     console.log(e);
     e.preventDefault();
     e.stopPropagation();
-    alert('ustaw Tlo');
+    alert('ustaw tlo paragrafów');
 }
 
-link.addEventListener('click', linkClickCallback);
+link.addEventListener('onclick', linkClickCallback);
 
 const link = document.querySelector('link');
 
